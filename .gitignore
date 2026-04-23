@@ -1,0 +1,25 @@
+# --- Python / Environment ---
+venv/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Streamlit ---
+.streamlit/config.toml
+# (Only ignore config.toml if it contains sensitive keys; otherwise, keep it)
+
+# --- Data & Models ---
+# Ignore raw data or large csv files to keep the repo light
+data/*.csv
+data/*.xlsx
+*.joblib
+*.pkl
+
+# --- Notebooks ---
+# Keep your notebooks, but ignore the checkpoints
+.ipynb_checkpoints/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
