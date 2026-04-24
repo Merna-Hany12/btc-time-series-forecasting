@@ -160,7 +160,7 @@ btc-time-series-forecasting/
 ## ⚙️ Installation & Usage
 
 ```bash
-git clone https://github.com/your-username/btc-forecasting-portal.git
+git clone https://github.com/Merna-Hany12/btc-time-series-forecasting.git
 cd btc-forecasting-portal
 pip install -r requirements.txt
 streamlit run app.py
